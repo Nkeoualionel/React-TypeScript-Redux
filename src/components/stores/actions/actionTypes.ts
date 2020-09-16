@@ -17,4 +17,8 @@ type ArticleAction = {
   article: IArticle
 }
 
-type DispatchType  = (args: ArticleAction) => ArticleAction
+type DispatchType = (args: ArticleAction) => ArticleAction
+
+
+export const ADD_ARTICLE = "ADD_ARTICLE"
+export const REMOVE_ARTICLE = "REMOVE_ARTICLE"
